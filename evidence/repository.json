@@ -8,5 +8,7 @@
   "deploy_transaction": "0x0bfd04cb366674d9334fed674d92763bd9c1a243729ee89eed3cdbca045bc42d",
   "register_transaction": "0xc9278fcf5585fd700249d50a1602ac097540740c292b13a078f3fa9ff1b8ed97",
   "screen_transaction": "0x9b9821bf3199912620bacfd3b5ba5ae3f2a23994777e77b45b30ec121626f778",
-  "screening_decision": "CLEAR"
+  "screening_decision": "CLEAR",
+  "portal_submission_id": "e7a0a0d2-bd02-4c71-ad20-98592384d819",
+  "portal_status": "pending_review"
 }

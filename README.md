@@ -21,6 +21,9 @@ Repository:
 The final screening returned `CLEAR`, with 8 OSV advisories within the policy
 limit of 10 across 2 components. OSV coverage was complete.
 
+The Portal contribution was submitted on 2026-10-26 and is currently awaiting
+Steward review.
+
 ## Problem
 
 Software consumers usually discover dependency risk in a CI dashboard. That

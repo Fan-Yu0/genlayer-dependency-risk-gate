@@ -40,6 +40,8 @@ registries, DAOs, procurement, and on-chain deployment gates.
   https://raw.githubusercontent.com/Fan-Yu0/genlayer-dependency-risk-gate/main/examples/payments-api-1.4.0.cdx.json
 - Recorded decision: `CLEAR`, 8 advisories within a limit of 10 across 2
   components, with complete OSV coverage.
+- Portal submission ID: `e7a0a0d2-bd02-4c71-ad20-98592384d819`
+- Portal status: awaiting Steward review
 
 ## Reviewer checklist
 

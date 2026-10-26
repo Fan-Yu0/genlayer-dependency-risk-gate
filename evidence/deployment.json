@@ -12,6 +12,14 @@
   "release_id": "payments-api-1.4.0",
   "sbom_url": "https://raw.githubusercontent.com/Fan-Yu0/genlayer-dependency-risk-gate/main/examples/payments-api-1.4.0.cdx.json",
   "sbom_sha256": "38758c4090f61bc7d828162ae11808f05a883988524d8c8d63b5ccd03b93780c",
+  "portal_submission": {
+    "submission_id": "e7a0a0d2-bd02-4c71-ad20-98592384d819",
+    "submitted_date": "2026-10-26",
+    "status": "pending_review",
+    "contribution_type": "Intelligent Contracts",
+    "evidence_count": 5,
+    "tracking_url": "https://portal.genlayer.foundation/my-submissions"
+  },
   "result": {
     "state": 1,
     "decision": 1,
