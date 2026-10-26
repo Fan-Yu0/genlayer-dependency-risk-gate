@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/Fan-Yu0/genlayer-dependency-risk-gate",
+  "visibility": "public",
+  "default_branch": "main",
+  "sample_sbom_url": "https://raw.githubusercontent.com/Fan-Yu0/genlayer-dependency-risk-gate/main/examples/payments-api-1.4.0.cdx.json",
+  "sample_sbom_sha256": "38758c4090f61bc7d828162ae11808f05a883988524d8c8d63b5ccd03b93780c"
+}

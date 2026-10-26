@@ -25,7 +25,8 @@ registries, DAOs, procurement, and on-chain deployment gates.
 
 ## Evidence to add after deployment
 
-- Public source repository URL.
+- Public source repository:
+  https://github.com/Fan-Yu0/genlayer-dependency-risk-gate
 - Contract Explorer address URL in the form
   `https://explorer-studio.genlayer.com/address/<address>`.
 - Deployment transaction URL.

@@ -4,6 +4,9 @@ A reusable GenLayer Intelligent Contract for evidence-backed release admission.
 It reads a CycloneDX SBOM, queries OSV for known advisories, and records a
 deterministic admission decision on-chain.
 
+Repository:
+<https://github.com/Fan-Yu0/genlayer-dependency-risk-gate>
+
 ## Problem
 
 Software consumers usually discover dependency risk in a CI dashboard. That
@@ -131,6 +134,12 @@ The OSV endpoint is fixed in the contract:
 The repository includes
 `examples/payments-api-1.4.0.cdx.json` as a reproducible fixture. After
 publishing the repository, use its raw GitHub URL as `sbom_url`.
+
+Public fixture URL:
+
+```text
+https://raw.githubusercontent.com/Fan-Yu0/genlayer-dependency-risk-gate/main/examples/payments-api-1.4.0.cdx.json
+```
 
 ## Repository layout
 
