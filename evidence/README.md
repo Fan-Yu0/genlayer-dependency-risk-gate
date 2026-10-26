@@ -20,3 +20,5 @@ components, complete OSV coverage, and a policy limit of 10.
 
 - `studio-screen-success.png`: Studio response for `get_screening`.
 - `explorer-screen-success.png`: finalized successful screening transaction.
+- `portal-form-filled.png`: completed Portal submission draft awaiting
+  reCAPTCHA and final submission.
