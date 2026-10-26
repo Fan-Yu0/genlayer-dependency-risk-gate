@@ -60,9 +60,21 @@ class DependencyRiskGate(gl.Contract):
 
     def _request_json(self, url: str, method: str = "GET", body: object = None) -> object:
         if body is None:
-            response = gl.nondet.web.request(url, method=method)
+            response = gl.nondet.web.request(
+                url,
+                method=method,
+                headers={"Accept": "application/json"},
+            )
         else:
-            response = gl.nondet.web.request(url, method=method, body=body)
+            response = gl.nondet.web.request(
+                url,
+                method=method,
+                body=json.dumps(body, separators=(",", ":"), sort_keys=True),
+                headers={
+                    "Accept": "application/json",
+                    "Content-Type": "application/json",
+                },
+            )
 
         status_value = getattr(response, "status_code", None)
         if status_value is None:

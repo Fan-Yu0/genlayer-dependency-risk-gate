@@ -1,0 +1,30 @@
+{
+  "network": "studionet",
+  "deployment_date": "2026-10-26",
+  "contract_address": "0x7493ED2C2DD1bBc81Fd05Dfdb47864cD67F91A2f",
+  "contract_url": "https://explorer-studio.genlayer.com/address/0x7493ED2C2DD1bBc81Fd05Dfdb47864cD67F91A2f",
+  "deploy_transaction": "0x0bfd04cb366674d9334fed674d92763bd9c1a243729ee89eed3cdbca045bc42d",
+  "deploy_transaction_url": "https://explorer-studio.genlayer.com/tx/0x0bfd04cb366674d9334fed674d92763bd9c1a243729ee89eed3cdbca045bc42d",
+  "register_transaction": "0xc9278fcf5585fd700249d50a1602ac097540740c292b13a078f3fa9ff1b8ed97",
+  "register_transaction_url": "https://explorer-studio.genlayer.com/tx/0xc9278fcf5585fd700249d50a1602ac097540740c292b13a078f3fa9ff1b8ed97",
+  "screen_transaction": "0x9b9821bf3199912620bacfd3b5ba5ae3f2a23994777e77b45b30ec121626f778",
+  "screen_transaction_url": "https://explorer-studio.genlayer.com/tx/0x9b9821bf3199912620bacfd3b5ba5ae3f2a23994777e77b45b30ec121626f778",
+  "release_id": "payments-api-1.4.0",
+  "sbom_url": "https://raw.githubusercontent.com/Fan-Yu0/genlayer-dependency-risk-gate/main/examples/payments-api-1.4.0.cdx.json",
+  "sbom_sha256": "38758c4090f61bc7d828162ae11808f05a883988524d8c8d63b5ccd03b93780c",
+  "result": {
+    "state": 1,
+    "decision": 1,
+    "decision_name": "CLEAR",
+    "finding_count": 8,
+    "component_count": 2,
+    "queried_components": 2,
+    "affected_components": 2,
+    "osv_complete": true,
+    "identity_match": true,
+    "truncated": false,
+    "unsupported_components": 0,
+    "round": 1,
+    "summary": "8 OSV advisories within the policy limit of 10 across 2 components"
+  }
+}

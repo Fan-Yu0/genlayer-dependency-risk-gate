@@ -7,6 +7,20 @@ deterministic admission decision on-chain.
 Repository:
 <https://github.com/Fan-Yu0/genlayer-dependency-risk-gate>
 
+## Live deployment
+
+- Contract:
+  <https://explorer-studio.genlayer.com/address/0x7493ED2C2DD1bBc81Fd05Dfdb47864cD67F91A2f>
+- Deployment:
+  <https://explorer-studio.genlayer.com/tx/0x0bfd04cb366674d9334fed674d92763bd9c1a243729ee89eed3cdbca045bc42d>
+- Release registration:
+  <https://explorer-studio.genlayer.com/tx/0xc9278fcf5585fd700249d50a1602ac097540740c292b13a078f3fa9ff1b8ed97>
+- Live screening:
+  <https://explorer-studio.genlayer.com/tx/0x9b9821bf3199912620bacfd3b5ba5ae3f2a23994777e77b45b30ec121626f778>
+
+The final screening returned `CLEAR`, with 8 OSV advisories within the policy
+limit of 10 across 2 components. OSV coverage was complete.
+
 ## Problem
 
 Software consumers usually discover dependency risk in a CI dashboard. That
@@ -28,7 +42,8 @@ publisher.
 1. A publisher registers a release ID, artifact name and version, SBOM URL, and
    the maximum number of OSV advisories it accepts.
 2. Anyone calls `screen(release_id)`.
-3. The leader fetches the SBOM and submits one OSV `querybatch` request.
+3. The leader fetches the SBOM and submits one JSON-encoded OSV
+   `querybatch` request.
 4. Validators independently fetch the same SBOM and repeat the OSV query.
 5. The validator compares the artifact identity, component coverage, advisory
    IDs, and affected-component set.
@@ -55,7 +70,8 @@ Other contracts can consume `is_clear(release_id)`.
   dashboard.
 - The contract uses structured data instead of an opaque model-generated risk
   score.
-- A custom validator independently repeats both external reads.
+- A custom validator independently repeats both external reads, including the
+  JSON POST body and request headers required by OSV.
 - Unknown coverage fails closed instead of becoming a silent approval.
 
 ## Coverage model

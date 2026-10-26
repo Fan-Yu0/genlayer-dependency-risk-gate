@@ -3,5 +3,10 @@
   "visibility": "public",
   "default_branch": "main",
   "sample_sbom_url": "https://raw.githubusercontent.com/Fan-Yu0/genlayer-dependency-risk-gate/main/examples/payments-api-1.4.0.cdx.json",
-  "sample_sbom_sha256": "38758c4090f61bc7d828162ae11808f05a883988524d8c8d63b5ccd03b93780c"
+  "sample_sbom_sha256": "38758c4090f61bc7d828162ae11808f05a883988524d8c8d63b5ccd03b93780c",
+  "contract_address": "0x7493ED2C2DD1bBc81Fd05Dfdb47864cD67F91A2f",
+  "deploy_transaction": "0x0bfd04cb366674d9334fed674d92763bd9c1a243729ee89eed3cdbca045bc42d",
+  "register_transaction": "0xc9278fcf5585fd700249d50a1602ac097540740c292b13a078f3fa9ff1b8ed97",
+  "screen_transaction": "0x9b9821bf3199912620bacfd3b5ba5ae3f2a23994777e77b45b30ec121626f778",
+  "screening_decision": "CLEAR"
 }
